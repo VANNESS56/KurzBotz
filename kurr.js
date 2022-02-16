@@ -1172,7 +1172,7 @@ stod = `${sender}`
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *KurrXd*
+🏴‍☠️ _Creator :*VANNESS STORE*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
@@ -1452,7 +1452,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Kurz Bot Assistan`,
+footerText: `VANNESS BOTZ`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -1460,7 +1460,7 @@ kurr.sendMessage(from, btnBngsat, MessageType.buttonsMessage, { quoted: ftrol, c
                   }
 break
         case 'store':
-        reply('*STORE MENU*\nREADY RDP BY KurrXd\n SPEK:\n RAM 8GB CORE 2\n35k minat ketik .owner')
+        reply('*STORE MENU*\nREADY RDP BY VANNESS STORE\n SPEK:\n RAM 8GB CORE 2\n35k minat ketik .owner')
         break
 case 'verify':
 if (isRegistered) return sticOk(from)
@@ -1476,7 +1476,7 @@ const serialUser = createSerial(18)
 🏴‍☠️ *🏴‍☠️ Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 VANNESS BOTZ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
@@ -1498,7 +1498,7 @@ case 'command':
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*_© Kurz Bot Assistan_*',
+ footerText: '*_© VANNESS BOTZ_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -2758,12 +2758,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `Kurz Bot Assistan`,
+    "hydratedFooterText": `VANNESS BOTZ`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Kurz Bot Assistan`,
-          "url": "https://github.com/KurrXd"
+          "displayText": `WEBSITE VANNESS STORE`,
+          "url": "https://vannessstore.xyz"
         },
         "index": 0
       }
